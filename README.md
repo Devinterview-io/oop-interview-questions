@@ -1,4 +1,4 @@
-# 🖲 Essential 54 OOP (Object Oriented Programming) interview questions and answer in 2021
+# 🖲 Essential 54 OOP (Object Oriented Programming) interview questions and answers in 2021
 
 OOP is the most popular programming paradigm used in the tech industry. Follow along and check our list of 54 basic and advanced OOP interview questions and answers for experienced developers and get ready for your next tech interview in 2021.
 
