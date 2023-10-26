@@ -8,6 +8,8 @@ Check out our carefully selected list of **basic** and **advanced** OOP question
 
 👉🏼 You can also find all answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
 
+---
+
 ## 🔹 1. What is _Object-Oriented Programming_ (OOP)?
 
 ### Answer
@@ -144,7 +146,6 @@ In the example:
 - **Inheritance**: Both `Lion` and `Parrot` classes inherit from the `Animal` class.
 - **Polymorphism**: Both `Lion` and `Parrot` provide their own implementation of the `makeSound()` method, even though they are treated as `Animal` objects.
 - **Abstraction**: The `Animal` class contains the abstract method `makeSound()`, ensuring derived classes provide their own implementation.
-
 ---
 
 
@@ -235,7 +236,6 @@ public class Main {
     }
 }
 ```
-
 ---
 
 
@@ -303,7 +303,6 @@ for _ in range(15):
     my_car.drive()
 ```
 
-
 ---
 
 
@@ -340,7 +339,6 @@ class Dog:
 
 myDog = Dog("Buddy", "Golden Retriever")
 ```
-
 ---
 
 
@@ -397,7 +395,6 @@ class Penguin(Bird):
     def walk(self):
         print(f"{self.name} is walking on land.")
 ```
-
 ---
 
 
@@ -428,7 +425,6 @@ While all methods are functions in a broader sense, not all functions are method
 - **Access**: Functions within a class context don't typically access or modify instance-specific data unless passed that data explicitly.
   
 - **Example**: Inside a `Math` class, a function `square_root` would be a general utility that computes the square root of a number. It doesn't operate on instance data and doesn't need to know about specific `Math` objects.
-
 ---
 
 
@@ -528,7 +524,6 @@ class J extends H { }  // Class J also inherits from class H
 // Java does not directly support hybrid inheritance through classes.
 // However, you can achieve something similar using interfaces, as shown with multiple inheritance.
 ```
-
 ---
 
 
@@ -562,7 +557,6 @@ Let's look into the details and compare them:
 - **Cons**: May need more design upfront; can require more boilerplate code.
 
 Many modern OOP design guidelines, like the **composition over inheritance principle**, suggest that unless there's a clear "is-a" relationship, it's often better to use **composition** as it's more flexible and leads to a more modular and maintainable design.
-
 ---
 
 
@@ -573,7 +567,6 @@ Many modern OOP design guidelines, like the **composition over inheritance princ
 While both **public** and **protected** members can be inherited by derived classes in **OOP**, this is **not** the case for **private** members.
 
 In most OOP languages these members are **not accessible** outside their declaring class.
-
 ---
 
 
@@ -596,9 +589,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 - **Swift**: Constructors aren't inherited. However, Swift introduces designated and convenience initializers for class construction and proper initialization across inheritance.
 
 - **Kotlin**: Constructors aren't inherited, but derived classes need to invoke the base class constructor using the `super` keyword.
-
 ---
-
 ---
 
 ## 🔹 11. How to prevent a _Class_ to be _Inherited_ further?
@@ -606,9 +597,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 12. What is _Encapsulation_?
@@ -616,9 +604,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 13. What is _Polymorphism_? Explain _Overriding_ and _Overloading_.
@@ -626,9 +611,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 14. Name some ways to _Overload_ a _Method_.
@@ -636,9 +618,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 15. What is an _Abstraction_? Name some _Abstraction Techniques_.
@@ -646,9 +625,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 16. What is an _Abstract Class_?
@@ -656,9 +632,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 17. What is an _Interface_?
@@ -666,9 +639,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 18. When to use _Interface_ vs. _Base Class_?
@@ -676,9 +646,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 19. Why can't _Static Methods_ in _C#_ implement an _Interface_?
@@ -686,9 +653,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 20. Can a _Non-static_ method be overridden as _Static_?
@@ -696,9 +660,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 21. Can you set _Accessibility Modifiers_ for methods within an _Interface_?
@@ -706,9 +667,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 22. Explain the concepts of _Constructor_ and _Destructor_.
@@ -716,9 +674,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 23. What is a _Static Constructor_?
@@ -726,9 +681,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 24. Why might a _Destructor_ in a _C#_ class not execute?
@@ -736,9 +688,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 25. What is the difference between a _Class_ and a _Structure_?
@@ -746,9 +695,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 26. What is the difference between _Virtual method_ and _Abstract method_?
@@ -756,9 +702,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 27. What is the purpose of a _Virtual keyword_?
@@ -766,9 +709,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 28. What is _Cohesion_ in OOP?
@@ -776,9 +716,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 29. What is _Coupling_ in OOP?
@@ -786,9 +723,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 30. What is the difference between _Cohesion_ and _Coupling_?
@@ -796,9 +730,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 31. How do _Association_, _Aggregation_, and _Composition_ differ in OOP?
@@ -806,9 +737,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 32. What is _Liskov Substitution Principle_ (LSP)? Provide some examples of _Violation_ and _Adherence_.
@@ -816,9 +744,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 33. Whait is _Repository Pattern_? Name some of it's benefits.
@@ -826,9 +751,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 34. How _Monads_ can be useful in _OOP_?
@@ -836,9 +758,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 35. What is a _Unit Of Work_?
@@ -846,9 +765,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 36. Does _.NET_ support _Multiple Inheritance_?
@@ -856,9 +772,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 37. Why use _Getters_ and _Setters_ for simple operations instead of _Public Fields_?
@@ -866,9 +779,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 38. What is _Circular Reference_? How to solve it?
@@ -876,9 +786,6 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
-
 ---
 
 ## 🔹 39. Is it possible to declare a _Private Class_ within a _Namespace_?
@@ -886,5 +793,3 @@ While traditionally **constructors are not inherited** by derived classes, some 
 ### Answer
 
 👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
-
----
