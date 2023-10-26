@@ -6,7 +6,7 @@ OOP is the most popular programming paradigm used in the tech industry. Follow a
 
 <p align="center">
   <a href="https://devinterview.io/">
-  <img src="https://source.unsplash.com/collection/52661698/600x300">
+  <img src="[https://source.unsplash.com/collection/52661698/600x300](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FoopBlogImg.png?alt=media&token=1fb3373c-6d08-48dc-aa42-984a75e4ab91&_gl=1*ljnaiv*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODMxNjI0Ny4xODEuMS4xNjk4MzE2MzQ0LjU0LjAuMA..)">
   </a>
 </p>
 
