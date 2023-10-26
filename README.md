@@ -8,8 +8,6 @@ Check out our carefully selected list of **basic** and **advanced** OOP question
 
 👉🏼 You can also find all answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
 
----
-
 ## 🔹 1. What is _Object-Oriented Programming_ (OOP)?
 
 ### Answer
