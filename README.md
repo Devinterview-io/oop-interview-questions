@@ -1,10 +1,10 @@
 # ⚫ OOP in Tech Interviews 2024: 39 Must-Know Questions & Answers
 
-**Object-Oriented Programming** is recognized for enabling structured and scalable code in tech.
+**Object-Oriented Programming** is a paradigm centered on "objects" with data (attributes) and code (methods). Key principles include encapsulation, inheritance, polymorphism, and abstraction. In interviews, OOP questions assess candidate's understanding of design patterns, class relationships, and software organization.
 
-Check out our carefully selected list of **basic** and **advanced** OOP questions to be well-prepared for your tech interviews in 2024.
+Check out our carefully selected list of **basic** and **advanced** OOP questions and answers to be well-prepared for your tech interviews in 2024.
 
-![OOP Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2FoopBlogImg.png?alt=media&token=6162bebd-1639-4378-a4ce-bc2f13e4ffe6&_gl=1*ijb4zt*_ga*OTYzMjY5NTkwLjE2ODg8NDM8Njg.*_ga_CW55HF8NVT*MTY5ODMxNjI0Ny4xODEuMS4xNjk8MzE6OTY0LjM6LjAuMA..)
+![OOP Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/oop.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698607493&Signature=ExEb8N3yQFspmVVp1s%2B%2B1SHslcl42LY6iCFgn4DlAs0%2FB%2BCxsddH7pJC9qe5NZ2JuZsl7o42XjMWoA2J6TJaP%2B7WX6BC2stfWiQtxvQdW0ZAhoKG5%2FiMAM6ccIFG8akw0891WJotbEY1%2FQDjl9vbcu933d4Nusbbbi%2FZLEolhGgY%2F8JWbxDNONMhK5cuzabq2JV0JRtjPU6dtutP3L7lU4l1ZnlCH3lUUTzw1WNjG2CfzzHofg0coopaV15qrFx7dCswKLm%2BgF6YtuaOgxKYLScVLXChAlhhMbbdUhYnk5ErYuUzbixQzf1ZbswFzdS%2FGMH1irf5kWk%2FbuicJr6%2BPA%3D%3D)
 
 👉🏼 You can also find all answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
 
@@ -149,7 +149,6 @@ In the example:
 
 ---
 
-
 ## 🔹 2. What is the difference between _Procedural_ and _Object-Oriented_ programming?
 
 ### Answer
@@ -240,7 +239,6 @@ public class Main {
 
 ---
 
-
 ## 🔹 3. What is a _Class_?
 
 ### Answer
@@ -308,7 +306,6 @@ for _ in range(15):
 
 ---
 
-
 ## 🔹 4. What is an _Object_?
 
 ### Answer
@@ -344,7 +341,6 @@ myDog = Dog("Buddy", "Golden Retriever")
 ```
 
 ---
-
 
 ## 🔹 5. Explain the _Hierarchical Relationship_ between classes.
 
@@ -402,7 +398,6 @@ class Penguin(Bird):
 
 ---
 
-
 ## 🔹 6. What is the difference between a _Method_ and a _Function_ in the context of _OOP_?
 
 ### Answer
@@ -432,7 +427,6 @@ While all methods are functions in a broader sense, not all functions are method
 - **Example**: Inside a `Math` class, a function `square_root` would be a general utility that computes the square root of a number. It doesn't operate on instance data and doesn't need to know about specific `Math` objects.
 
 ---
-
 
 ## 🔹 7. What is _Inheritance_? Name some _Types of Inheritance_.
 
@@ -533,7 +527,6 @@ class J extends H { }  // Class J also inherits from class H
 
 ---
 
-
 ## 🔹 8. Compare _Inheritance_ vs. _Mixin_ vs. _Composition_.
 
 ### Answer
@@ -567,7 +560,6 @@ Many modern OOP design guidelines, like the **composition over inheritance princ
 
 ---
 
-
 ## 🔹 9. Can you inherit _Private Members_ of a _Class_?
 
 ### Answer
@@ -577,7 +569,6 @@ While both **public** and **protected** members can be inherited by derived clas
 In most OOP languages these members are **not accessible** outside their declaring class.
 
 ---
-
 
 ## 🔹 10. Can a _Class_ inherit the _Constructor_ of its _Base Class_?
 
@@ -600,14 +591,11 @@ While traditionally **constructors are not inherited** by derived classes, some 
 - **Kotlin**: Constructors aren't inherited, but derived classes need to invoke the base class constructor using the `super` keyword.
 
 ---
-
----
-
 ## 🔹 11. How to prevent a _Class_ to be _Inherited_ further?
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -615,7 +603,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -623,7 +611,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -631,7 +619,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -639,7 +627,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -647,7 +635,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -655,7 +643,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -663,7 +651,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -671,7 +659,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -679,7 +667,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -687,7 +675,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -695,7 +683,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -703,7 +691,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -711,7 +699,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -719,7 +707,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -727,7 +715,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -735,7 +723,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -743,7 +731,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -751,7 +739,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -759,7 +747,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -767,7 +755,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -775,7 +763,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -783,7 +771,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -791,7 +779,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -799,7 +787,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -807,7 +795,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -815,7 +803,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -823,7 +811,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
 
 ---
 
@@ -831,4 +819,7 @@ While traditionally **constructors are not inherited** by derived classes, some 
 
 ### Answer
 
-👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
+👉🏼 Check out all 39 answers here: [Devinterview.io - OOP](https://devinterview.io/data/oop-interview-questions)
+
+---
+
