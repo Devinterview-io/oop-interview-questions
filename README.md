@@ -4,7 +4,7 @@
 
 Check out our carefully selected list of **basic** and **advanced** OOP questions and answers to be well-prepared for your tech interviews in 2024.
 
-![OOP Decorative Image](https://storage.googleapis.com/dev-stack-app.appspot.com/blogImg/oop.png?GoogleAccessId=firebase-adminsdk-bgeaf%40dev-stack-app.iam.gserviceaccount.com&Expires=1698607493&Signature=ExEb8N3yQFspmVVp1s%2B%2B1SHslcl42LY6iCFgn4DlAs0%2FB%2BCxsddH7pJC9qe5NZ2JuZsl7o42XjMWoA2J6TJaP%2B7WX6BC2stfWiQtxvQdW0ZAhoKG5%2FiMAM6ccIFG8akw0891WJotbEY1%2FQDjl9vbcu933d4Nusbbbi%2FZLEolhGgY%2F8JWbxDNONMhK5cuzabq2JV0JRtjPU6dtutP3L7lU4l1ZnlCH3lUUTzw1WNjG2CfzzHofg0coopaV15qrFx7dCswKLm%2BgF6YtuaOgxKYLScVLXChAlhhMbbdUhYnk5ErYuUzbixQzf1ZbswFzdS%2FGMH1irf5kWk%2FbuicJr6%2BPA%3D%3D)
+![OOP Decorative Image](https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/blogImg%2Foop.png?alt=media&token=ee035010-99e8-4156-a06b-2915368d7021&_gl=1*52h48a*_ga*OTYzMjY5NTkwLjE2ODg4NDM4Njg.*_ga_CW55HF8NVT*MTY5ODYwNTk1NS4xOTAuMS4xNjk4NjA2NjI0LjU5LjAuMA..)
 
 👉🏼 You can also find all answers here: [Devinterview.io - OOP](https://devinterview.io/dev/oop-interview-questions)
 
