@@ -1,4 +1,4 @@
-# 52 Important OOP Interview Questions in 2025
+# 52 Important OOP Interview Questions
 
 <div>
 <p align="center">
