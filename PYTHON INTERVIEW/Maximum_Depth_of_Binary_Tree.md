@@ -4,41 +4,36 @@
 Given the root of a binary tree, return its **maximum depth**.  
 A binary tree's maximum depth is the number of nodes along the **longest path** from the root node down to the farthest leaf node.
 
----
-
 
 ---
+// Definition for a binary tree node
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-## 💡 Explanation
-The longest path from the root node (3) to the farthest leaf node is either:
-- `3 → 9` → depth = 2  
-- or `3 → 20 → 15` / `3 → 20 → 7` → depth = 3  
+    TreeNode(int val) {
+        this.val = val;
+        this.left = null;
+        this.right = null;
+    }
+}
 
-Hence, the **maximum depth = 3**.
+class Solution {
+    public int maxDepth(TreeNode root) {
+        // Base case: if the tree is empty
+        if (root == null) {
+            return 0;
+        }
 
----
+        // Recursively find depth of left and right subtrees
+        int leftDepth = maxDepth(root.left);
+        int rightDepth = maxDepth(root.right);
 
-## 🐍 Python Solution
-
-```python
-class TreeNode:
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
-class Solution:
-    def maxDepth(self, root: TreeNode) -> int:
-        # Base case: if the tree is empty
-        if not root:
-            return 0
-        
-        # Recursively find depth of left and right subtrees
-        left_depth = self.maxDepth(root.left)
-        right_depth = self.maxDepth(root.right)
-        
-        # Return max depth between left and right, plus 1 for current node
-        return 1 + max(left_depth, right_depth)
+        // Return max depth between left and right, plus 1 for current node
+        return 1 + Math.max(leftDepth, rightDepth);
+    }
+}
 
 
 
