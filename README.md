@@ -1104,7 +1104,6 @@ Many modern OOP design guidelines, like the **composition over inheritance princ
 
 
 
-#### Explore all 52 answers here 👉 [Devinterview.io - OOP](https://devinterview.io/questions/web-and-mobile-development/oop-interview-questions)
 
 <br>
 
